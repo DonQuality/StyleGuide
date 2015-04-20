@@ -1,0 +1,30 @@
+{
+  "name": "kickAzz",
+  "version": "0.1.1",
+  "authors": [
+    "DonQuality <santosemmanuel@outlook.com>"
+  ],
+  "description": "node package framework",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.3"
+  },
+  "homepage": "https://github.com/DonQuality/kickAzz",
+  "_release": "0.1.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.1.1",
+    "commit": "f0fe17c5c6ac082223d225cfc0bff7f860e09897"
+  },
+  "_source": "git://github.com/DonQuality/kickAzz.git",
+  "_target": "~0.1.1",
+  "_originalSource": "kickAzz",
+  "_direct": true
+}

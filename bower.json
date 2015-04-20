@@ -1,0 +1,19 @@
+{
+  "name": "kickAzz",
+  "version": "0.1.0",
+  "authors": [
+    "DonQuality <santosemmanuel@outlook.com>"
+  ],
+  "description": "node package framework",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.3"
+  }
+}

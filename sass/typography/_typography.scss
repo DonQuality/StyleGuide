@@ -1,0 +1,10 @@
+// only logic code goes in here....
+@mixin letra($color, $size, $weight){
+  color: $color;
+  font-size: $size;
+  font-weight: $weight;
+}
+
+@mixin font-pos($padding){
+  padding: $padding;
+}
