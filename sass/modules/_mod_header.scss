@@ -9,8 +9,9 @@ header{
 .module-header{
   @include col(4/4);
   @include top-fixed(static, null);
-  box-shadow: 0 0 .3em $dark-pink;
+  box-shadow: 0 0 .3em grey;
   background: $primary-color;
+  padding: .5em;
 }
 
 .company-logo{
