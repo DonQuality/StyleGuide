@@ -1,7 +1,6 @@
 @import "config";
 @import "layout/manifest";
 @import "modules/manifest";
-
 .primary-color-box{
   padding: .5em;
   @include color-box($primary-color);

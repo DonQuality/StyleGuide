@@ -25,8 +25,6 @@
   float: left;
 }
 
-
-
 .content-container{
   p{
     @include letra($primary-color, null, 100);

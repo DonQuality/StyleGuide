@@ -18,6 +18,9 @@
       cursor: pointer;
     }
   }
+  a{
+    @include letra($dark-pink, null, 100);
+  }
 }
 
 .normal-list{
