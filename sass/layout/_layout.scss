@@ -9,9 +9,6 @@
 
 .main-wrapper{
   transition: margin-top .5s;
-  @media (max-width: 900px){
-    margin-top: 10em;
-  }
 }
 
 .main{
@@ -26,6 +23,7 @@
   padding: 2em;
   @media (max-width: 900px){
     @include center(100%);
+    margin-top: 6em;
     padding: 1em;
     margin-bottom: 5em;
   }

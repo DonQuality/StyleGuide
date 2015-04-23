@@ -397,9 +397,6 @@ video {
 
 .main-wrapper {
   transition: margin-top .5s; }
-  @media (max-width: 900px) {
-    .main-wrapper {
-      margin-top: 10em; } }
 
 .main {
   float: left;
@@ -427,6 +424,7 @@ video {
       margin-left: auto;
       padding-left: 0;
       padding-right: 0;
+      margin-top: 6em;
       padding: 1em;
       margin-bottom: 5em; } }
 
@@ -1016,9 +1014,6 @@ header {
 
 .main-wrapper {
   transition: margin-top .5s; }
-  @media (max-width: 900px) {
-    .main-wrapper {
-      margin-top: 10em; } }
 
 .main {
   float: left;
@@ -1046,6 +1041,7 @@ header {
       margin-left: auto;
       padding-left: 0;
       padding-right: 0;
+      margin-top: 6em;
       padding: 1em;
       margin-bottom: 5em; } }
 
@@ -1512,9 +1508,6 @@ header {
 
 .main-wrapper {
   transition: margin-top .5s; }
-  @media (max-width: 900px) {
-    .main-wrapper {
-      margin-top: 10em; } }
 
 .main {
   float: left;
@@ -1542,6 +1535,7 @@ header {
       margin-left: auto;
       padding-left: 0;
       padding-right: 0;
+      margin-top: 6em;
       padding: 1em;
       margin-bottom: 5em; } }
 
@@ -2131,9 +2125,6 @@ header {
 
 .main-wrapper {
   transition: margin-top .5s; }
-  @media (max-width: 900px) {
-    .main-wrapper {
-      margin-top: 10em; } }
 
 .main {
   float: left;
@@ -2161,6 +2152,7 @@ header {
       margin-left: auto;
       padding-left: 0;
       padding-right: 0;
+      margin-top: 6em;
       padding: 1em;
       margin-bottom: 5em; } }
 
