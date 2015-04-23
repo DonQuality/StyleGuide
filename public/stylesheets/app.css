@@ -729,7 +729,7 @@ header {
       width: 6%; } }
   @media (max-width: 500px) {
     .logo-pic {
-      width: 8%; } }
+      width: 10%; } }
 
 .menu-icon {
   float: right;
@@ -1346,7 +1346,7 @@ header {
       width: 6%; } }
   @media (max-width: 500px) {
     .logo-pic {
-      width: 8%; } }
+      width: 10%; } }
 
 .menu-icon {
   float: right;
@@ -1840,7 +1840,7 @@ header {
       width: 6%; } }
   @media (max-width: 500px) {
     .logo-pic {
-      width: 8%; } }
+      width: 10%; } }
 
 .menu-icon {
   float: right;
@@ -1935,6 +1935,8 @@ header {
     color: black;
     font-weight: 400;
     list-style: disc inside; }
+    .normal-list li:first-child {
+      border-bottom: .1em solid #3f4246; }
   @media (max-width: 900px) {
     .normal-list {
       float: left;
@@ -1989,6 +1991,8 @@ header {
   .dropdown-list li {
     color: #444444;
     font-weight: 400; }
+    .dropdown-list li:first-child {
+      border-bottom: .1em solid #3f4246; }
   @media (max-width: 900px) {
     .dropdown-list {
       float: left;
@@ -2457,7 +2461,7 @@ header {
       width: 6%; } }
   @media (max-width: 500px) {
     .logo-pic {
-      width: 8%; } }
+      width: 10%; } }
 
 .menu-icon {
   float: right;
