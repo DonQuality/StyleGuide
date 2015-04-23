@@ -1,5 +1,5 @@
 // only logic code goes in here....
-@mixin letra($color, $size, $weight){
+@mixin letra($color: null, $size: null, $weight: null){
   color: $color;
   font-size: $size;
   font-weight: $weight;

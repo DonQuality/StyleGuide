@@ -1,7 +1,17 @@
+//secondary-color
+$light-grey: #ECECEC;
+$dark-blue: #717478 - 50;
+$dark-pink: #AF142D;
+// primary color
+$primary-color: #ffffff;
+$secondary-color: #444444;
+$tertiary-color: $dark-pink + 20;
+//font-size
+$em-base: 62.5%;
 // typography styles
 $primary-font: 'Lato', sans-serif;
 $secondary-font: 'Open Sans', sans-serif;
 
 // typography colors
-$primary-color: #3f3f3f - 40;
-$secondary-color: #3f3f3f;
+$tertiary-color: $dark-pink + 20;
+

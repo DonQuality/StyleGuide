@@ -1,0 +1,31 @@
+@mixin eight-col($background: null){
+  @include col(4/4);
+  h1{
+    @include letra($secondary-color, null, 800);
+  }
+  background: $background;
+  padding: 1.5em;
+  div{
+    padding: 4em;
+  }
+  p{
+    @include letra($secondary-color, null, 100);
+    float: right;
+  }
+}
+
+@mixin four-col($background: null){
+  @include center(60%);
+  h1{
+    @include letra($secondary-color, null, 800);
+  }
+  background: $background;
+  padding: 1.5em;
+  div{
+    padding: 4em;
+  }
+  p{
+    @include letra($secondary-color, null, 100);
+    float: right;
+  }
+}

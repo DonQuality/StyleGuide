@@ -1,0 +1,50 @@
+.full-col{
+  @include col(4/4);
+  background: $dark-blue;
+  margin-bottom: 1em;
+  padding: 2em;
+  .large{
+    padding: 5em;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    @media (max-width: 900px){
+      padding: 3em;
+    }
+  }
+}
+
+.half-col-left{
+  @include col(1/2);
+  height: 15em;
+  background: $dark-blue;
+  margin-bottom: 1em;
+  @media (max-width: 900px){
+    @include col(4/4);
+    @include stack();
+    padding: 4em;
+  }
+}
+
+.half-col-right{
+  @include col(1/2);
+  height: 15em;
+  background: $dark-blue;
+  margin-bottom: 1em;
+  margin-right: 0;
+  @media (max-width: 900px){
+    @include col(4/4);
+    @include stack();
+    padding: 4em;
+  }
+}
+
+.third-col{
+  @include col(1/3);
+  padding: 5em;
+  background: $dark-blue;
+  margin-bottom: 2em;
+  @media (max-width: 900px){
+    padding: 2em;
+  }
+}

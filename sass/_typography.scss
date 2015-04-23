@@ -1,0 +1,32 @@
+@import "typography/manifest";
+.strong{
+  @include letra($tertiary-color, 3.5em, 700);
+}
+
+.pink-text{
+  color: $tertiary-color;
+}
+
+.title-text{
+  @include letra($tertiary-color, 3.5em, 700);
+  margin-top: .2em;
+  margin-bottom: .5em;
+}
+
+.sub-title-text{
+  @include letra($dark-blue, 3.5em, 100);
+}
+
+.logo{
+  @include letra($primary-color, 3em, 100);
+  float: left;
+}
+
+
+
+.content-container{
+  p{
+    @include letra($primary-color, null, 100);
+  }
+}
+

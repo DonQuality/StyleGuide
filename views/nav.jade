@@ -1,0 +1,75 @@
+extends layout
+
+block content
+  section.main
+    h1.title-text Navigation
+    section.list.clearfix
+      h1.spacing Normal List
+      ul.normal-list
+        li Normal List
+        hr
+        li Mixers
+        li Nuendo
+        li Cubase
+        li Sequel
+        li Wavelab
+  section.main
+    section.list.clearfix
+      h1.spacing Inline List
+      ul.inline-list
+        li Audio Interface
+        li Mixers
+        li Nuendo
+        li Cubase
+        li Sequel
+        li Wavelab
+
+  section.main
+    section.list.clearfix
+      h1.spacing#showDropList Dropdown List
+      ul.dropdown-list#dropDownList
+        li Menu
+        hr
+        li Mixers
+        li Nuendo
+        li Cubase
+        li Sequel
+        li Wavelab
+    section.code-sample-box
+      h1 Usage:
+      p.spacing HTML
+      pre.
+        &lt;h1 id=&quot;showDropList&quot; class=&quot;spacing&quot;&gt;Dropdown List&lt;/h1&gt;
+        &lt;ul id=&quot;dropDownList&quot; class=&quot;dropdown-list&quot;&gt;
+          &lt;li&gt;Menu&lt;/li&gt;
+          &lt;hr&gt;
+          &lt;li&gt;Mixers&lt;/li&gt;
+          &lt;li&gt;Nuendo&lt;/li&gt;
+          &lt;li&gt;Cubase&lt;/li&gt;
+          &lt;li&gt;Sequel&lt;/li&gt;
+          &lt;li&gt;Wavelab&lt;/li&gt;
+        &lt;/ul&gt;
+    section.code-sample-box
+      p.spacing Jquery
+      pre.
+        var showDropList = $('#showDropList');
+        var dropDownList = $('#dropDownList');
+
+        showDropList.on('click', function(){
+          dropDownList.show().animate({
+            'height':'16.5em'
+          });
+        });
+
+  section.main
+    section.list.image-list.clearfix
+      h1.spacing Product List
+      ul
+        li.icons
+          img(src='/images/cubase.svg', alt='cubase')
+        li.icons
+          img(src='/images/nuendo.svg', alt='nuendo')
+        li.icons
+          img(src='/images/sequel.svg', alt='sequel')
+        li.icons
+          img(src='/images/wavelab.svg', alt='wavelab')

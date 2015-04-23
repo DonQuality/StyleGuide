@@ -1,1 +1,76 @@
-// only logic code goes in here....
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+.main-wrapper{
+  transition: margin-top .5s;
+  @media (max-width: 900px){
+    margin-top: 10em;
+  }
+}
+
+.main{
+  @include col(2/3);
+  margin-top: 11em;
+  margin-bottom: .5em;
+  background: $primary-color;
+  float: right;
+  margin-right: 0;
+  border: 1px solid $tertiary-color;
+  transition: margin-top .2s;
+  padding: 2em;
+  @media (max-width: 900px){
+    @include center(100%);
+    padding: 2em;
+    margin-bottom: 5em;
+  }
+}
+// List box - Left
+.container{
+  @include col(1/3);
+  @include top-fixed(fixed, 0);
+  margin-top: 11em;
+  transition: margin-top .5s;
+  @media (max-width: 900px){
+    @include col(4/4);
+    margin-top: 8.5em;
+    background: $primary-color;
+    @include top-fixed(absolute, null);
+  }
+}
+
+.content-container{
+  @include col(4/4);
+  padding: .5em;
+  text-align: center;
+}
+
+.center{
+  @include center(80%);
+  @include col(4/4);
+  background: black;
+}
+
+.pull-up{
+  margin-top: -1em;
+  @media (max-width: 900px){
+    margin-top: -2em;
+  }
+  @media (max-width: 500px){
+    margin-top: 1.5em;
+  }
+}
+
+.push-down{
+  margin-top: 6.5em;
+}
+
+.spacing{
+  margin-top: .5em;
+  margin-bottom: .5em;
+}

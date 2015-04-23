@@ -1,0 +1,70 @@
+@import"config";
+@import"typography/manifest";
+
+h1{
+  @include letra($secondary-color, 3em, 100);
+}
+
+h2{
+  @include letra($secondary-color, 2.5em, 100);
+  margin: .5em 0;
+}
+
+h3{
+  @include letra($secondary-color, 2em, 100);
+  margin: .5em 0;
+}
+
+h4{
+  @include letra($secondary-color, 1.8em, 100);
+  margin: .5em 0;
+}
+
+h5{
+  @include letra($secondary-color, 1.5em, 100);
+  margin: .5em 0;
+}
+
+h6{
+  @include letra($secondary-color, 1.1em, 100);
+  margin: .5em 0;
+}
+
+
+p{
+  @include letra($secondary-color, 2em, 100);
+  line-height: 1.4em;
+}
+
+a,
+a:active{
+  @include letra(null, null, 100);
+  text-decoration: none;
+  color: $tertiary-color;
+  &:hover{
+    color: $tertiary-color - 50;
+    transition: color .5s;
+  }
+}
+
+li{
+  @include letra($secondary-color, 1.5em, 300);
+  line-height: 1.5em;
+  margin-left: 1em;
+}
+
+pre{
+  padding: 1em;
+  white-space: pre-wrap;       /* css-3 */
+  white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+  white-space: -pre-wrap;      /* Opera 4-6 */
+  white-space: -o-pre-wrap;    /* Opera 7 */
+  word-wrap: break-word;
+  background: grey;            /* Internet Explorer 5.5+ */
+  font-size: 1.8em;
+  color: $primary-color;
+}
+
+video{
+  margin-bottom: 5em;
+}

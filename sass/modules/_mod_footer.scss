@@ -1,0 +1,10 @@
+.main-footer{
+  width: 34.4%;
+  background: $tertiary-color;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  @media (max-width: 900px){
+    @include col(4/4);
+  }
+}

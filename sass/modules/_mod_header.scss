@@ -1,0 +1,19 @@
+header{
+  @include top-fixed(fixed, 0);
+  @include col(4/4);
+  padding: .5em;
+  background: $dark-pink;
+  z-index: 5;
+  overflow: hidden;
+}
+
+.module-header{
+  @include col(4/4);
+  @include top-fixed(static, null);
+  background: grey;
+}
+
+.top-box{
+  @include col(4/4);
+  background: black;
+}

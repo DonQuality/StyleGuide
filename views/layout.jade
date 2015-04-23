@@ -7,12 +7,43 @@ html
     meta(charset='UTF-8')
     meta(name='viewport', content='width=device-width,minimum-scale=1,maximum-scale=1,user-scalable=no')
     link(rel='stylesheet', href='/stylesheets/app.css')
+    link(rel='icon', type='image/png', href='/images/fav.jpg')
     link(href='http://fonts.googleapis.com/css?family=Open+Sans:400,800', rel='stylesheet', type='text/css')
     link(href='http://fonts.googleapis.com/css?family=Lato:300,400', rel='stylesheet', type='text/css')
-  body
-    header Style Guide
-      aside
+  body#top
+    nav.hidden-nav#hiddenNav
+      ul.hidden-list
+        li Layout
+        li Modules
+        li UI patterns
+        li Navigation
+    section.back-to-top
+      a(href="#top")
+        h1 TOP
+    header
+      div.logo-pic
+        img(src="/images/fav.png")
+      a(href="/")
+        h1.logo Style Guide
+      p.menu-icon.hide-on-desktop#showMenu &#9776;
+    div(role="navigation").container.hide-on-mobile
+      section.link-to.list-item
+        a(href="/late")
+          h1 Layout
+      section.link-to.list-item
+        a(href="/modules")
+          h1 Modules
+      section.link-to.list-item
+        a(href="/uipatterns")
+          h1 UI patterns
+      section.link-to.list-item
+        a(href="/nav")
+          h1 Navigation
+    footer.main-footer
+      p.copyrights Quality Webz
     block content
 
-
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js')
     script(src='http://localhost:35729/livereload.js')
+    script(src='/javascripts/main.js')
+

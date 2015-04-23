@@ -1,6 +1,11 @@
 @import 'jeet/index';
 @import "config";
 @import "reset";
+@import "_base_styles.scss";
 @import "typography";
-@import "layout";
-@import "modules";
+@import "hidden-el";
+@import "ui-patterns";
+@import "layout/manifest";
+@import "modules/manifest";
+@import "list";
+@import "color-palette";

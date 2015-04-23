@@ -1,0 +1,47 @@
+@import "config";
+@import "layout/manifest";
+@import "modules/manifest";
+
+.hiding{
+  visibility: hidden;
+}
+
+.hide-on-mobile{
+  @media (max-width: 900px){
+    display: none;
+  }
+}
+
+.hide-on-desktop{
+  display: none;
+}
+
+.back-to-top{
+  position: fixed;
+  padding: .5em;
+  right: 0; bottom: 0;
+  background: $tertiary-color;
+  cursor: pointer;
+  transition: bottom .5s;
+  @media(max-width: 900px){
+    bottom: 2em;
+  }
+  h1{
+    @include letra($primary-color, 2em, 100);
+  }
+}
+
+.hidden-nav{
+  @include col(4/4);
+  @include top-fixed(fixed, 0);
+  background: $tertiary-color;
+  z-index: 5;
+  margin-top: 4.5em;
+  display: none;
+}
+
+.hidden-list{
+  li{
+    @include inline-list(inline-block, 1em, 1.5em, $primary-color);
+  }
+}

@@ -1,0 +1,28 @@
+@import "config";
+@import "typography/manifest";
+@import "ui-patterns/manifest";
+
+.ui-eight{
+  @include eight-col($primary-color);
+  box-shadow: 0 0 1em grey;
+  margin-bottom: 2em;
+  @media (max-width: 900px){
+    font-size: .8em;
+  }
+  @media (max-width: 500px){
+    font-size: .9em;
+  }
+}
+
+.ui-four{
+  @include four-col($primary-color);
+  box-shadow: 0 0 1em grey;
+  margin-bottom: 2em;
+  @media (max-width: 900px){
+    font-size: .8em;
+  }
+  @media (max-width: 500px){
+    font-size: .9em;
+  }
+}
+

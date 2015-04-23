@@ -1,0 +1,11 @@
+// only logic code goes in here....
+@mixin inline-list($display: null, $margin: null, $size: null, $color: null){
+  display: $display;
+  margin: $margin;
+  font-size: $size;
+  color: $color;
+}
+
+@mixin color-box($background){
+  background: $background;
+}
