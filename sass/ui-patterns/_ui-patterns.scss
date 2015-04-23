@@ -28,4 +28,8 @@
     @include letra($secondary-color, null, 100);
     float: right;
   }
+  @media (max-width: 900px){
+    @include center(95%);
+    padding: .5em;
+  }
 }

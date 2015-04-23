@@ -1,6 +1,9 @@
 @import "typography/manifest";
 .strong{
   @include letra($tertiary-color, 3.5em, 700);
+  @media (max-width: 900px){
+    font-size: 2em;
+  }
 }
 
 .pink-text{

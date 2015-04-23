@@ -28,6 +28,9 @@
     @include letra(black, null, 400);
     list-style: disc inside;
   }
+  @media (max-width: 900px){
+    @include col(4/4);
+  }
 }
 
 .inline-list{
@@ -61,6 +64,9 @@
   height: 0;
   li{
     @include letra($secondary-color, null, 400);
+  }
+  @media (max-width: 900px){
+    @include col(4/4);
   }
 }
 

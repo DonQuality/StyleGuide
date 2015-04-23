@@ -7,7 +7,7 @@ block content
       h2 All layout styles are inside of the /layout directory.
       h3 How it works ?
       p The layout in this page is very basic and simple, we are using
-        a(href="http://jeet.gs/")
+        a.pink-text(href="http://jeet.gs/")
           span  Jeet grid.
         |  Jeet helps you write your code faster & gives
         |  you more flexibility. The grid it's very easy to use. It's a mix of classes and
@@ -25,11 +25,11 @@ block content
         div.half-col-right.hide-on-mobile
           p class="half-col-right" + @include col(1/2)
         div.third-col.clearfix
-          p class="third-col" + @include col(1/3)
+          p.hide-on-mobile class="third-col" + @include col(1/3)
         div.third-col
-          p class="third-col" + @include col(1/3)
+          p.hide-on-mobile class="third-col" + @include col(1/3)
         div.third-col
-          p class="third-col" + @include col(1/3)
+          p.hide-on-mobile class="third-col" + @include col(1/3)
       section
         section
           h1.spacing Usage:

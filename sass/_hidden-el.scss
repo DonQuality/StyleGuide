@@ -44,5 +44,10 @@
   li{
     @include inline-list(inline-block, 1em, 1.5em, $primary-color);
     color: white;
+    @media (max-width: 330px){
+      @include letra($primary-color, 2em, 400);
+      display: block;
+      margin: .5em;
+    }
   }
 }
