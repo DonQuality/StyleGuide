@@ -828,7 +828,7 @@ header {
   font-size: 1.5em;
   color: #ffffff;
   color: white; }
-  @media (max-width: 330px) {
+  @media (max-width: 500px) {
     .hidden-list li {
       color: #ffffff;
       font-size: 2em;
@@ -853,7 +853,7 @@ header {
     font-weight: 800; }
   .ui-eight div {
     padding: 4em; }
-  .ui-eight p {
+  .ui-eight h4 {
     color: #444444;
     font-weight: 100;
     float: right; }
@@ -882,7 +882,7 @@ header {
     font-weight: 800; }
   .ui-four div {
     padding: 4em; }
-  .ui-four p {
+  .ui-four h4 {
     color: #444444;
     font-weight: 100;
     float: right; }

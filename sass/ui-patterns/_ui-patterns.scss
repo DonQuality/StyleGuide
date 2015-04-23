@@ -8,7 +8,7 @@
   div{
     padding: 4em;
   }
-  p{
+  h4{
     @include letra($secondary-color, null, 100);
     float: right;
   }
@@ -24,7 +24,7 @@
   div{
     padding: 4em;
   }
-  p{
+  h4{
     @include letra($secondary-color, null, 100);
     float: right;
   }
