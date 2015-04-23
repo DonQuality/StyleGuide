@@ -247,7 +247,7 @@ pre {
   font-size: 1.8em;
   color: #ffffff;
   box-shadow: 0 0 .3em #AF142D; }
-  @media (max-width: 900px) {
+  @media (max-width: 1100px) {
     pre {
       font-size: 1.5em; } }
 
@@ -258,7 +258,7 @@ video {
   color: #c32841;
   font-size: 3.5em;
   font-weight: 700; }
-  @media (max-width: 900px) {
+  @media (max-width: 1100px) {
     .strong {
       font-size: 2em; } }
 
@@ -303,7 +303,7 @@ video {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center; }
-    @media (max-width: 900px) {
+    @media (max-width: 1100px) {
       .full-col .large {
         padding: 1em; } }
 
@@ -318,7 +318,7 @@ video {
   margin-bottom: 1em; }
   .half-col-left:last-child {
     margin-right: 0; }
-  @media (max-width: 900px) {
+  @media (max-width: 1100px) {
     .half-col-left {
       float: left;
       clear: none;
@@ -351,7 +351,7 @@ video {
   margin-right: 0; }
   .half-col-right:last-child {
     margin-right: 0; }
-  @media (max-width: 900px) {
+  @media (max-width: 1100px) {
     .half-col-right {
       float: left;
       clear: none;
@@ -383,7 +383,7 @@ video {
   margin-bottom: 2em; }
   .third-col:last-child {
     margin-right: 0; }
-  @media (max-width: 900px) {
+  @media (max-width: 1100px) {
     .third-col {
       padding: 2em; } }
 
@@ -414,7 +414,7 @@ video {
   padding: 2em; }
   .main:last-child {
     margin-right: 0; }
-  @media (max-width: 900px) {
+  @media (max-width: 1100px) {
     .main {
       width: auto;
       max-width: 100%;
@@ -440,7 +440,7 @@ video {
   transition: margin-top .5s; }
   .container:last-child {
     margin-right: 0; }
-  @media (max-width: 900px) {
+  @media (max-width: 1100px) {
     .container {
       float: left;
       clear: none;
@@ -484,7 +484,7 @@ video {
 
 .pull-up {
   margin-top: -1em; }
-  @media (max-width: 900px) {
+  @media (max-width: 1100px) {
     .pull-up {
       margin-top: -2em; } }
   @media (max-width: 500px) {
@@ -604,7 +604,7 @@ header {
   position: fixed;
   bottom: 0;
   text-align: center; }
-  @media (max-width: 900px) {
+  @media (max-width: 1100px) {
     .main-footer {
       float: left;
       clear: none;
@@ -699,7 +699,7 @@ header {
   .copy-left li {
     display: inline-block;
     color: #ffffff; }
-    @media (max-width: 900px) {
+    @media (max-width: 1100px) {
       .copy-left li {
         padding: 0;
         font-size: 1em; } }
@@ -715,7 +715,7 @@ header {
     display: inline-block;
     color: #ffffff;
     float: right; }
-    @media (max-width: 900px) {
+    @media (max-width: 1100px) {
       .copy-right li {
         padding: 0;
         font-size: 1em; } }
@@ -724,7 +724,7 @@ header {
   width: 5%;
   float: left;
   margin-right: 2em; }
-  @media (max-width: 900px) {
+  @media (max-width: 1100px) {
     .logo-pic {
       width: 6%; } }
   @media (max-width: 500px) {
@@ -736,7 +736,7 @@ header {
   font-size: 3em;
   color: white;
   cursor: pointer; }
-  @media (max-width: 900px) {
+  @media (max-width: 1100px) {
     .menu-icon {
       display: block; } }
 
@@ -762,7 +762,7 @@ header {
 
 .ui-container {
   padding: 5em; }
-  @media (max-width: 900px) {
+  @media (max-width: 1100px) {
     .ui-container {
       padding: 5em; } }
   @media (max-width: 500px) {
@@ -784,7 +784,7 @@ header {
 .hiding {
   visibility: hidden; }
 
-@media (max-width: 900px) {
+@media (max-width: 1100px) {
   .hide-on-mobile {
     display: none; } }
 
@@ -799,7 +799,7 @@ header {
   background: #c32841;
   cursor: pointer;
   transition: bottom .5s; }
-  @media (max-width: 900px) {
+  @media (max-width: 1100px) {
     .back-to-top {
       bottom: 2em; } }
   .back-to-top h1 {
@@ -857,7 +857,7 @@ header {
     color: #444444;
     font-weight: 100;
     float: right; }
-  @media (max-width: 900px) {
+  @media (max-width: 1100px) {
     .ui-eight {
       font-size: .8em; } }
   @media (max-width: 500px) {
@@ -886,7 +886,7 @@ header {
     color: #444444;
     font-weight: 100;
     float: right; }
-  @media (max-width: 900px) {
+  @media (max-width: 1100px) {
     .ui-four {
       width: auto;
       max-width: 95%;
@@ -897,7 +897,7 @@ header {
       padding-left: 0;
       padding-right: 0;
       padding: .5em; } }
-  @media (max-width: 900px) {
+  @media (max-width: 1100px) {
     .ui-four {
       font-size: .8em; } }
   @media (max-width: 500px) {
@@ -920,7 +920,7 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center; }
-    @media (max-width: 900px) {
+    @media (max-width: 1100px) {
       .full-col .large {
         padding: 1em; } }
 
@@ -935,7 +935,7 @@ header {
   margin-bottom: 1em; }
   .half-col-left:last-child {
     margin-right: 0; }
-  @media (max-width: 900px) {
+  @media (max-width: 1100px) {
     .half-col-left {
       float: left;
       clear: none;
@@ -968,7 +968,7 @@ header {
   margin-right: 0; }
   .half-col-right:last-child {
     margin-right: 0; }
-  @media (max-width: 900px) {
+  @media (max-width: 1100px) {
     .half-col-right {
       float: left;
       clear: none;
@@ -1000,7 +1000,7 @@ header {
   margin-bottom: 2em; }
   .third-col:last-child {
     margin-right: 0; }
-  @media (max-width: 900px) {
+  @media (max-width: 1100px) {
     .third-col {
       padding: 2em; } }
 
@@ -1031,7 +1031,7 @@ header {
   padding: 2em; }
   .main:last-child {
     margin-right: 0; }
-  @media (max-width: 900px) {
+  @media (max-width: 1100px) {
     .main {
       width: auto;
       max-width: 100%;
@@ -1057,7 +1057,7 @@ header {
   transition: margin-top .5s; }
   .container:last-child {
     margin-right: 0; }
-  @media (max-width: 900px) {
+  @media (max-width: 1100px) {
     .container {
       float: left;
       clear: none;
@@ -1101,7 +1101,7 @@ header {
 
 .pull-up {
   margin-top: -1em; }
-  @media (max-width: 900px) {
+  @media (max-width: 1100px) {
     .pull-up {
       margin-top: -2em; } }
   @media (max-width: 500px) {
@@ -1221,7 +1221,7 @@ header {
   position: fixed;
   bottom: 0;
   text-align: center; }
-  @media (max-width: 900px) {
+  @media (max-width: 1100px) {
     .main-footer {
       float: left;
       clear: none;
@@ -1316,7 +1316,7 @@ header {
   .copy-left li {
     display: inline-block;
     color: #ffffff; }
-    @media (max-width: 900px) {
+    @media (max-width: 1100px) {
       .copy-left li {
         padding: 0;
         font-size: 1em; } }
@@ -1332,7 +1332,7 @@ header {
     display: inline-block;
     color: #ffffff;
     float: right; }
-    @media (max-width: 900px) {
+    @media (max-width: 1100px) {
       .copy-right li {
         padding: 0;
         font-size: 1em; } }
@@ -1341,7 +1341,7 @@ header {
   width: 5%;
   float: left;
   margin-right: 2em; }
-  @media (max-width: 900px) {
+  @media (max-width: 1100px) {
     .logo-pic {
       width: 6%; } }
   @media (max-width: 500px) {
@@ -1353,7 +1353,7 @@ header {
   font-size: 3em;
   color: white;
   cursor: pointer; }
-  @media (max-width: 900px) {
+  @media (max-width: 1100px) {
     .menu-icon {
       display: block; } }
 
@@ -1379,7 +1379,7 @@ header {
 
 .ui-container {
   padding: 5em; }
-  @media (max-width: 900px) {
+  @media (max-width: 1100px) {
     .ui-container {
       padding: 5em; } }
   @media (max-width: 500px) {
@@ -1414,7 +1414,7 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center; }
-    @media (max-width: 900px) {
+    @media (max-width: 1100px) {
       .full-col .large {
         padding: 1em; } }
 
@@ -1429,7 +1429,7 @@ header {
   margin-bottom: 1em; }
   .half-col-left:last-child {
     margin-right: 0; }
-  @media (max-width: 900px) {
+  @media (max-width: 1100px) {
     .half-col-left {
       float: left;
       clear: none;
@@ -1462,7 +1462,7 @@ header {
   margin-right: 0; }
   .half-col-right:last-child {
     margin-right: 0; }
-  @media (max-width: 900px) {
+  @media (max-width: 1100px) {
     .half-col-right {
       float: left;
       clear: none;
@@ -1494,7 +1494,7 @@ header {
   margin-bottom: 2em; }
   .third-col:last-child {
     margin-right: 0; }
-  @media (max-width: 900px) {
+  @media (max-width: 1100px) {
     .third-col {
       padding: 2em; } }
 
@@ -1525,7 +1525,7 @@ header {
   padding: 2em; }
   .main:last-child {
     margin-right: 0; }
-  @media (max-width: 900px) {
+  @media (max-width: 1100px) {
     .main {
       width: auto;
       max-width: 100%;
@@ -1551,7 +1551,7 @@ header {
   transition: margin-top .5s; }
   .container:last-child {
     margin-right: 0; }
-  @media (max-width: 900px) {
+  @media (max-width: 1100px) {
     .container {
       float: left;
       clear: none;
@@ -1595,7 +1595,7 @@ header {
 
 .pull-up {
   margin-top: -1em; }
-  @media (max-width: 900px) {
+  @media (max-width: 1100px) {
     .pull-up {
       margin-top: -2em; } }
   @media (max-width: 500px) {
@@ -1715,7 +1715,7 @@ header {
   position: fixed;
   bottom: 0;
   text-align: center; }
-  @media (max-width: 900px) {
+  @media (max-width: 1100px) {
     .main-footer {
       float: left;
       clear: none;
@@ -1810,7 +1810,7 @@ header {
   .copy-left li {
     display: inline-block;
     color: #ffffff; }
-    @media (max-width: 900px) {
+    @media (max-width: 1100px) {
       .copy-left li {
         padding: 0;
         font-size: 1em; } }
@@ -1826,7 +1826,7 @@ header {
     display: inline-block;
     color: #ffffff;
     float: right; }
-    @media (max-width: 900px) {
+    @media (max-width: 1100px) {
       .copy-right li {
         padding: 0;
         font-size: 1em; } }
@@ -1835,7 +1835,7 @@ header {
   width: 5%;
   float: left;
   margin-right: 2em; }
-  @media (max-width: 900px) {
+  @media (max-width: 1100px) {
     .logo-pic {
       width: 6%; } }
   @media (max-width: 500px) {
@@ -1847,7 +1847,7 @@ header {
   font-size: 3em;
   color: white;
   cursor: pointer; }
-  @media (max-width: 900px) {
+  @media (max-width: 1100px) {
     .menu-icon {
       display: block; } }
 
@@ -1873,7 +1873,7 @@ header {
 
 .ui-container {
   padding: 5em; }
-  @media (max-width: 900px) {
+  @media (max-width: 1100px) {
     .ui-container {
       padding: 5em; } }
   @media (max-width: 500px) {
@@ -1937,7 +1937,7 @@ header {
     list-style: disc inside; }
     .normal-list li:first-child {
       border-bottom: .1em solid #3f4246; }
-  @media (max-width: 900px) {
+  @media (max-width: 1100px) {
     .normal-list {
       float: left;
       clear: none;
@@ -1993,7 +1993,7 @@ header {
     font-weight: 400; }
     .dropdown-list li:first-child {
       border-bottom: .1em solid #3f4246; }
-  @media (max-width: 900px) {
+  @media (max-width: 1100px) {
     .dropdown-list {
       float: left;
       clear: none;
@@ -2006,7 +2006,7 @@ header {
 .icon-list {
   background: #c32841;
   padding: 8em; }
-  @media (max-width: 900px) {
+  @media (max-width: 1100px) {
     .icon-list {
       padding: 5em; } }
 
@@ -2035,7 +2035,7 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center; }
-    @media (max-width: 900px) {
+    @media (max-width: 1100px) {
       .full-col .large {
         padding: 1em; } }
 
@@ -2050,7 +2050,7 @@ header {
   margin-bottom: 1em; }
   .half-col-left:last-child {
     margin-right: 0; }
-  @media (max-width: 900px) {
+  @media (max-width: 1100px) {
     .half-col-left {
       float: left;
       clear: none;
@@ -2083,7 +2083,7 @@ header {
   margin-right: 0; }
   .half-col-right:last-child {
     margin-right: 0; }
-  @media (max-width: 900px) {
+  @media (max-width: 1100px) {
     .half-col-right {
       float: left;
       clear: none;
@@ -2115,7 +2115,7 @@ header {
   margin-bottom: 2em; }
   .third-col:last-child {
     margin-right: 0; }
-  @media (max-width: 900px) {
+  @media (max-width: 1100px) {
     .third-col {
       padding: 2em; } }
 
@@ -2146,7 +2146,7 @@ header {
   padding: 2em; }
   .main:last-child {
     margin-right: 0; }
-  @media (max-width: 900px) {
+  @media (max-width: 1100px) {
     .main {
       width: auto;
       max-width: 100%;
@@ -2172,7 +2172,7 @@ header {
   transition: margin-top .5s; }
   .container:last-child {
     margin-right: 0; }
-  @media (max-width: 900px) {
+  @media (max-width: 1100px) {
     .container {
       float: left;
       clear: none;
@@ -2216,7 +2216,7 @@ header {
 
 .pull-up {
   margin-top: -1em; }
-  @media (max-width: 900px) {
+  @media (max-width: 1100px) {
     .pull-up {
       margin-top: -2em; } }
   @media (max-width: 500px) {
@@ -2336,7 +2336,7 @@ header {
   position: fixed;
   bottom: 0;
   text-align: center; }
-  @media (max-width: 900px) {
+  @media (max-width: 1100px) {
     .main-footer {
       float: left;
       clear: none;
@@ -2431,7 +2431,7 @@ header {
   .copy-left li {
     display: inline-block;
     color: #ffffff; }
-    @media (max-width: 900px) {
+    @media (max-width: 1100px) {
       .copy-left li {
         padding: 0;
         font-size: 1em; } }
@@ -2447,7 +2447,7 @@ header {
     display: inline-block;
     color: #ffffff;
     float: right; }
-    @media (max-width: 900px) {
+    @media (max-width: 1100px) {
       .copy-right li {
         padding: 0;
         font-size: 1em; } }
@@ -2456,7 +2456,7 @@ header {
   width: 5%;
   float: left;
   margin-right: 2em; }
-  @media (max-width: 900px) {
+  @media (max-width: 1100px) {
     .logo-pic {
       width: 6%; } }
   @media (max-width: 500px) {
@@ -2468,7 +2468,7 @@ header {
   font-size: 3em;
   color: white;
   cursor: pointer; }
-  @media (max-width: 900px) {
+  @media (max-width: 1100px) {
     .menu-icon {
       display: block; } }
 
@@ -2494,7 +2494,7 @@ header {
 
 .ui-container {
   padding: 5em; }
-  @media (max-width: 900px) {
+  @media (max-width: 1100px) {
     .ui-container {
       padding: 5em; } }
   @media (max-width: 500px) {
@@ -2528,7 +2528,7 @@ header {
   .primary-color-box h1 {
     color: #c32841;
     font-weight: 100; }
-  @media (max-width: 900px) {
+  @media (max-width: 1100px) {
     .primary-color-box {
       display: block;
       clear: both;
@@ -2563,7 +2563,7 @@ header {
   .primary-color-box-two h1, .primary-color-box-two h2, .primary-color-box-two p {
     color: #ffffff;
     font-weight: 100; }
-  @media (max-width: 900px) {
+  @media (max-width: 1100px) {
     .primary-color-box-two {
       display: block;
       clear: both;
@@ -2601,7 +2601,7 @@ header {
   .primary-color-box-three h2, .primary-color-box-three p {
     color: #ffffff;
     font-weight: 100; }
-  @media (max-width: 900px) {
+  @media (max-width: 1100px) {
     .primary-color-box-three {
       display: block;
       clear: both;
@@ -2637,7 +2637,7 @@ header {
   .secondary-color-box h1 {
     color: #c32841;
     font-weight: 100; }
-  @media (max-width: 900px) {
+  @media (max-width: 1100px) {
     .secondary-color-box {
       display: block;
       clear: both;
@@ -2672,7 +2672,7 @@ header {
   .secondary-color-box-two h1, .secondary-color-box-two h2, .secondary-color-box-two p {
     color: #ffffff;
     font-weight: 100; }
-  @media (max-width: 900px) {
+  @media (max-width: 1100px) {
     .secondary-color-box-two {
       display: block;
       clear: both;
@@ -2710,7 +2710,7 @@ header {
   .secondary-color-box-three h2, .secondary-color-box-three p {
     color: #ffffff;
     font-weight: 100; }
-  @media (max-width: 900px) {
+  @media (max-width: 1100px) {
     .secondary-color-box-three {
       display: block;
       clear: both;

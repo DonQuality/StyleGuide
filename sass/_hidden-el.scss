@@ -7,7 +7,7 @@
 }
 
 .hide-on-mobile{
-  @media (max-width: 900px){
+  @media (max-width: 1100px){
     display: none;
   }
 }
@@ -23,7 +23,7 @@
   background: $tertiary-color;
   cursor: pointer;
   transition: bottom .5s;
-  @media(max-width: 900px){
+  @media(max-width: 1100px){
     bottom: 2em;
   }
   h1{

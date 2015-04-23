@@ -8,7 +8,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    @media (max-width: 900px){
+    @media (max-width: 1100px){
       padding: 1em;
     }
   }
@@ -19,7 +19,7 @@
   height: 15em;
   background: $dark-blue;
   margin-bottom: 1em;
-  @media (max-width: 900px){
+  @media (max-width: 1100px){
     @include col(4/4);
     @include stack();
     padding: 4em;
@@ -32,7 +32,7 @@
   background: $dark-blue;
   margin-bottom: 1em;
   margin-right: 0;
-  @media (max-width: 900px){
+  @media (max-width: 1100px){
     @include col(4/4);
     @include stack();
     padding: 4em;
@@ -44,7 +44,7 @@
   padding: 5em;
   background: $dark-blue;
   margin-bottom: 2em;
-  @media (max-width: 900px){
+  @media (max-width: 1100px){
     padding: 2em;
   }
 }

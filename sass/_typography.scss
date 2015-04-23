@@ -1,7 +1,7 @@
 @import "typography/manifest";
 .strong{
   @include letra($tertiary-color, 3.5em, 700);
-  @media (max-width: 900px){
+  @media (max-width: 1100px){
     font-size: 2em;
   }
 }
