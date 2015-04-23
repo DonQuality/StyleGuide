@@ -23,7 +23,7 @@
 .link-to{
   @include span(1/3);
   @include stack();
-  background: $light-grey;
+  background: grey;
   padding: 1em;
   margin-bottom: 1em;
 }

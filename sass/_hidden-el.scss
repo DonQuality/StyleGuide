@@ -43,5 +43,6 @@
 .hidden-list{
   li{
     @include inline-list(inline-block, 1em, 1.5em, $primary-color);
+    color: white;
   }
 }

@@ -40,7 +40,7 @@ a,
 a:active{
   @include letra(null, null, 100);
   text-decoration: none;
-  color: $tertiary-color;
+  color: $primary-color;
   &:hover{
     color: $tertiary-color - 50;
     transition: color .5s;

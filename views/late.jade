@@ -16,19 +16,19 @@ block content
       p.strong Demo
       p Full layout
       div.content-container
-        span.full-col
+        div.full-col
           p class="full-col" + @include col(4/4)
-        span.full-col
+        div.full-col
           p.large class="full-col" + @include col(4/4)
-        span.half-col-left.hide-on-mobile
+        div.half-col-left.hide-on-mobile
           p class="half-col-left" + @include col(1/2)
-        span.half-col-right.hide-on-mobile
+        div.half-col-right.hide-on-mobile
           p class="half-col-right" + @include col(1/2)
-        span.third-col.clearfix
+        div.third-col.clearfix
           p class="third-col" + @include col(1/3)
-        span.third-col
+        div.third-col
           p class="third-col" + @include col(1/3)
-        span.third-col
+        div.third-col
           p class="third-col" + @include col(1/3)
       section
         section
@@ -85,11 +85,11 @@ block content
       p.strong Demo
       p breakpoint at 900px.
       div.content-container
-        span.half-col-left.stack
+        div.half-col-left.stack
           p
             span.hide-on-mobile @include col(1/2); &
             |  @include stack();
-        span.half-col-right.stack
+        div.half-col-right.stack
           p
             span.hide-on-mobile @include col(1/2); &
             |  @include stack();

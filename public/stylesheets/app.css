@@ -219,7 +219,7 @@ p {
 a, a:active {
   font-weight: 100;
   text-decoration: none;
-  color: #c32841; }
+  color: #ffffff; }
   a:hover, a:active:hover {
     color: #91000f;
     transition: color .5s; }
@@ -751,7 +751,7 @@ header {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  background: #ECECEC;
+  background: grey;
   padding: 1em;
   margin-bottom: 1em; }
   .link-to:first-child {
@@ -825,7 +825,8 @@ header {
   display: inline-block;
   margin: 1em;
   font-size: 1.5em;
-  color: #ffffff; }
+  color: #ffffff;
+  color: white; }
 
 .ui-eight {
   float: left;
@@ -1351,7 +1352,7 @@ header {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  background: #ECECEC;
+  background: grey;
   padding: 1em;
   margin-bottom: 1em; }
   .link-to:first-child {
@@ -1847,7 +1848,7 @@ header {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  background: #ECECEC;
+  background: grey;
   padding: 1em;
   margin-bottom: 1em; }
   .link-to:first-child {
@@ -2448,7 +2449,7 @@ header {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  background: #ECECEC;
+  background: grey;
   padding: 1em;
   margin-bottom: 1em; }
   .link-to:first-child {

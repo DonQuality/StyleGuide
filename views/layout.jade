@@ -13,38 +13,38 @@ html
   body#top
     nav.hidden-nav#hiddenNav
       ul.hidden-list
-        a(href="/")
-          li home
-        a(href="/late")
-          li Layout
-        a(href="/modules")
-          li Modules
-        a(href="/uipatterns")
-          li UI patterns
-        a(href="/nav")
-          li Navigation
+        li
+          a(href="/") home
+        li
+          a(href="/late") Layout
+        li
+          a(href="/modules") Modules
+        li
+          a(href="/uipatterns") UI patterns
+        li
+          a(href="/nav") Navigation
     section.back-to-top
       a(href="#top")
         h1 TOP
     header
       div.logo-pic
-        img(src="/images/fav.png")
+        img(src="/images/fav.png", alt="logo picture")
       a(href="/")
         h1.logo Style Guide
       p.menu-icon.hide-on-desktop#showMenu &#9776;
     div(role="navigation").container.hide-on-mobile
       section.link-to.list-item
-        a(href="/late")
-          h1 Layout
+        h2
+          a(href="/late") Layout
       section.link-to.list-item
-        a(href="/modules")
-          h1 Modules
+        h2
+          a(href="/modules") Modules
       section.link-to.list-item
-        a(href="/uipatterns")
-          h1 UI patterns
+        h2
+          a(href="/uipatterns") UI patterns
       section.link-to.list-item
-        a(href="/nav")
-          h1 Navigation
+        h2
+          a(href="/nav") Navigation
     footer.main-footer
       p.copyrights Quality Webz
     block content
