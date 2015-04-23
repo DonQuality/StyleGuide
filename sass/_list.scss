@@ -1,7 +1,7 @@
 @import "config";
 @import "layout/manifest";
 @import "modules/manifest";
-@include edit();
+// @include edit();
 .list{
   @include col(4/4);
   @include stack();

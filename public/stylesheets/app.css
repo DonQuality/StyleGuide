@@ -1362,9 +1362,6 @@ header {
 .code-sample-box {
   margin-top: 5em; }
 
-* {
-  background: rgba(0, 0, 0, 0.05); }
-
 .list {
   float: left;
   clear: none;
