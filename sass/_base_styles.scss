@@ -63,6 +63,10 @@ pre{
   background: grey;            /* Internet Explorer 5.5+ */
   font-size: 1.8em;
   color: $primary-color;
+  box-shadow: 0 0 .3em $dark-pink;
+  @media (max-width: 900px){
+    font-size: 1.5em;
+  }
 }
 
 video{

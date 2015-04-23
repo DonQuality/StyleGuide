@@ -1,24 +1,92 @@
 extends layout
 
 block content
-  section.main
+  section.main.clearfix
     h1.title-text header
+    p.spacing All header styles are inside of the /modules/ _mod_header.scss directory.
     header.module-header
-      div.top-box
-        h1 test
-      //-   ul
-      //-     li Home
-      //-     li English
-      //-     li Icon D-D
-      //- div.bottom-box
-      //-   section
-      //-     h1 Logo
-      //-   div
-      //-     ul
-      //-       li Shop
-      //-       li Product
-      //-       li Support
-      //-       li Artist
-      //-       li Education
+      div.top-box.clearfix
+        div.company-logo
+          img(src="/images/stein.svg", alt="company logo")
+        section.top-navigation-mod
+          ul
+            li Home
+            li English
+            li
+              img.globe-icon(src="/images/globe.svg", alt="globe icon")
+      div.bottom-box.clearfix
+        ul
+          li Shop
+          li Products
+          li Support
+          li Artist
+
+  section.main.clearfix
+    h1.title-text Footer
+    p.spacing All footer styles are inside of the /modules/ _mod_footer.scss directory.
+    footer.module-footer
+      div.related-box.clearfix
+        div.top-left
+          ul
+            li Shop
+            li Products
+            li Support
+            li Artist
+        div.social-box.clearfix
+          span
+            img(src="/images/facebook.svg", alt="facebook")
+          span
+            img(src="/images/googleplus.svg", alt="googleplus")
+          span
+            img(src="/images/soundcloud.svg", alt="soundcloud")
+          span
+            img(src="/images/youtube.svg", alt="youtube")
+      div.copyrights-box.clearfix
+        section.copy-left
+          ul
+            li Shop
+            li Products
+            li Support
+            li Artist
+        section.copy-right
+          ul
+            li Shop
+            li Products
+            li Support
+            li Artist
+        section
+          h1.spacing Usage:
+          pre.
+            &lt;footer class=&quot;module-footer&quot;&gt;
+              &lt;div class=&quot;related-box clearfix&quot;&gt;
+                &lt;div class=&quot;top-left&quot;&gt;
+                  &lt;ul&gt;
+                    &lt;li&gt;Shop&lt;/li&gt;
+                    &lt;li&gt;Products&lt;/li&gt;
+                    &lt;li&gt;Support&lt;/li&gt;
+                    &lt;li&gt;Artist&lt;/li&gt;
+                  &lt;/ul&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;social-box clearfix&quot;&gt;&lt;span&gt;&lt;img src=&quot;/images/facebook.svg&quot; alt=&quot;facebook&quot;&gt;&lt;/span&gt;&lt;span&gt;&lt;img src=&quot;/images/googleplus.svg&quot; alt=&quot;googleplus&quot;&gt;&lt;/span&gt;&lt;span&gt;&lt;img src=&quot;/images/soundcloud.svg&quot; alt=&quot;soundcloud&quot;&gt;&lt;/span&gt;&lt;span&gt;&lt;img src=&quot;/images/youtube.svg&quot; alt=&quot;youtube&quot;&gt;&lt;/span&gt;&lt;/div&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;copyrights-box clearfix&quot;&gt;
+                &lt;section class=&quot;copy-left&quot;&gt;
+                  &lt;ul&gt;
+                    &lt;li&gt;Shop&lt;/li&gt;
+                    &lt;li&gt;Products&lt;/li&gt;
+                    &lt;li&gt;Support&lt;/li&gt;
+                    &lt;li&gt;Artist&lt;/li&gt;
+                  &lt;/ul&gt;
+                &lt;/section&gt;
+                &lt;section class=&quot;copy-right&quot;&gt;
+                  &lt;ul&gt;
+                    &lt;li&gt;Shop&lt;/li&gt;
+                    &lt;li&gt;Products&lt;/li&gt;
+                    &lt;li&gt;Support&lt;/li&gt;
+                    &lt;li&gt;Artist&lt;/li&gt;
+                  &lt;/ul&gt;
+                &lt;/section&gt;
+              &lt;/div&gt;
+            &lt;/footer&gt;
 
 

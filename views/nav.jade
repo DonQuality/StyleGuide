@@ -3,6 +3,7 @@ extends layout
 block content
   section.main
     h1.title-text Navigation
+    p All navigation styles are inside of the _list.scss directory.
     section.list.clearfix
       h1.spacing Normal List
       ul.normal-list
@@ -17,16 +18,13 @@ block content
     section.list.clearfix
       h1.spacing Inline List
       ul.inline-list
-        li Audio Interface
+        li Audio
         li Mixers
         li Nuendo
-        li Cubase
-        li Sequel
-        li Wavelab
 
   section.main
     section.list.clearfix
-      h1.spacing#showDropList Dropdown List
+      h1.spacing#showDropList.drop Dropdown List - click me
       ul.dropdown-list#dropDownList
         li Menu
         hr
