@@ -17,12 +17,12 @@
 }
 
 .link-to{
+  @include wrap-left(.1em solid $dark-pink);
   @include span(1/3);
   @include stack();
   background: $primary-color;
   padding: 1em;
   margin-bottom: 1em;
-  border: .1em solid $dark-pink;
 }
 
 .ui-container{

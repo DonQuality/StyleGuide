@@ -1,6 +1,6 @@
 @import "typography/manifest";
 .strong{
-  @include letra($tertiary-color, 3.5em, 700);
+  @include letra($tertiary-color, 3.5em, 400);
   @media (max-width: 1100px){
     font-size: 2em;
   }
@@ -48,5 +48,11 @@
   h2,
   p{
     @include letra($primary-color, null, 100);
+  }
+}
+
+.back-to-top{
+  h1{
+    @include letra($primary-color, 2em, 100);
   }
 }

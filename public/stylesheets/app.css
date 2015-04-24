@@ -247,7 +247,8 @@ pre {
   font-size: 1.8em;
   background: #444444;
   color: #ffffff;
-  box-shadow: 0 0 .3em #ffffff; }
+  box-shadow: 0 0 .3em #ffffff;
+  line-height: 1.5em; }
   @media (max-width: 1100px) {
     pre {
       font-size: 1.5em; } }
@@ -258,7 +259,7 @@ video {
 .strong {
   color: #c32841;
   font-size: 3.5em;
-  font-weight: 700; }
+  font-weight: 400; }
   @media (max-width: 1100px) {
     .strong {
       font-size: 2em; } }
@@ -298,6 +299,11 @@ video {
 
 .primary-color-box-three h1, .primary-color-box-three h2, .primary-color-box-three p {
   color: #ffffff;
+  font-weight: 100; }
+
+.back-to-top h1 {
+  color: #ffffff;
+  font-size: 2em;
   font-weight: 100; }
 
 .full-col {
@@ -417,12 +423,14 @@ video {
   width: 65.6666666667%;
   margin-left: 0;
   margin-right: 3%;
+  border-top: .1em solid #AF142D;
+  border-left: .1em solid #AF142D;
+  border-bottom: .1em solid #AF142D;
   margin-top: 6em;
   margin-bottom: .5em;
   background: #ffffff;
   float: right;
   margin-right: 0;
-  border: 1px solid #c32841;
   transition: margin-top .2s;
   padding: 2em; }
   .main:last-child {
@@ -512,6 +520,9 @@ video {
   margin-bottom: .5em;
   font-weight: 400; }
 
+.last-child {
+  border-bottom: none; }
+
 header {
   position: fixed;
   top: 0;
@@ -520,7 +531,7 @@ header {
   width: 100%;
   margin-left: 0;
   margin-right: 3%;
-  background: #AF142D;
+  background: rgba(175, 20, 45, 0.98);
   z-index: 5;
   overflow: hidden; }
   header:last-child {
@@ -546,6 +557,9 @@ header {
   margin-left: 0;
   margin-right: 0;
   width: 20%; }
+  @media (max-width: 500px) {
+    .company-logo {
+      width: 30%; } }
 
 .top-navigation-mod {
   float: left;
@@ -559,6 +573,9 @@ header {
     font-weight: 400;
     display: inline-block;
     float: right; }
+    @media (max-width: 500px) {
+      .top-navigation-mod li {
+        font-size: 1.2em; } }
 
 .bottom-box {
   float: left;
@@ -583,6 +600,9 @@ header {
     font-weight: 400;
     display: inline-block;
     float: right; }
+    @media (max-width: 500px) {
+      .bottom-box li {
+        font-size: 1.2em; } }
     .bottom-box li:last-child {
       border-bottom: .2em solid #AF142D; }
 
@@ -617,7 +637,7 @@ header {
   position: fixed;
   bottom: 0;
   text-align: center; }
-  @media (max-width: 1100px) {
+  @media (max-width: 900px) {
     .main-footer {
       float: left;
       clear: none;
@@ -637,6 +657,10 @@ header {
   background: #444444; }
   .module-footer:last-child {
     margin-right: 0; }
+  @media (max-width: 500px) {
+    .module-footer {
+      padding: 0;
+      margin-top: 5em; } }
 
 .related-box {
   float: left;
@@ -669,7 +693,8 @@ header {
     color: #ffffff; }
     @media (max-width: 500px) {
       .top-left li {
-        font-size: 1em; } }
+        font-size: 1em;
+        padding: 0; } }
 
 .social-box {
   float: left;
@@ -709,12 +734,15 @@ header {
   margin-left: 0;
   margin-right: 0;
   padding: 2em; }
+  @media (max-width: 500px) {
+    .copy-left {
+      padding: 0;
+      margin-top: 3em; } }
   .copy-left li {
     display: inline-block;
     color: #ffffff; }
     @media (max-width: 1100px) {
       .copy-left li {
-        padding: 0;
         font-size: 1em; } }
 
 .copy-right {
@@ -724,6 +752,10 @@ header {
   margin-left: 0;
   margin-right: 0;
   padding: 2em; }
+  @media (max-width: 500px) {
+    .copy-right {
+      padding: .1em;
+      margin-top: 3em; } }
   .copy-right li {
     display: inline-block;
     color: #ffffff;
@@ -750,6 +782,9 @@ header {
       margin-right: .2em; } }
 
 .link-to {
+  border-top: .1em solid #AF142D;
+  border-right: .1em solid #AF142D;
+  border-bottom: .1em solid #AF142D;
   float: left;
   clear: none;
   width: 33.3333333333%;
@@ -763,8 +798,7 @@ header {
   margin-right: auto;
   background: #ffffff;
   padding: 1em;
-  margin-bottom: 1em;
-  border: .1em solid #AF142D; }
+  margin-bottom: 1em; }
   .link-to:first-child {
     margin-left: auto; }
   .link-to:last-child {
@@ -806,16 +840,13 @@ header {
   padding: .5em;
   right: 0;
   bottom: 0;
-  background: #c32841;
+  background: #444444;
   cursor: pointer;
-  transition: bottom .5s; }
+  transition: bottom .5s;
+  box-shadow: 0 0 .1em #ffffff; }
   @media (max-width: 1100px) {
     .back-to-top {
       bottom: 2em; } }
-  .back-to-top h1 {
-    color: #ffffff;
-    font-size: 2em;
-    font-weight: 100; }
 
 .hidden-nav {
   float: left;
@@ -828,7 +859,8 @@ header {
   background: #c32841;
   z-index: 5;
   margin-top: 4em;
-  display: none; }
+  display: none;
+  border-bottom: .2em solid #ffffff; }
   .hidden-nav:last-child {
     margin-right: 0; }
 
@@ -1031,12 +1063,14 @@ header {
   width: 65.6666666667%;
   margin-left: 0;
   margin-right: 3%;
+  border-top: .1em solid #AF142D;
+  border-left: .1em solid #AF142D;
+  border-bottom: .1em solid #AF142D;
   margin-top: 6em;
   margin-bottom: .5em;
   background: #ffffff;
   float: right;
   margin-right: 0;
-  border: 1px solid #c32841;
   transition: margin-top .2s;
   padding: 2em; }
   .main:last-child {
@@ -1126,6 +1160,9 @@ header {
   margin-bottom: .5em;
   font-weight: 400; }
 
+.last-child {
+  border-bottom: none; }
+
 header {
   position: fixed;
   top: 0;
@@ -1134,7 +1171,7 @@ header {
   width: 100%;
   margin-left: 0;
   margin-right: 3%;
-  background: #AF142D;
+  background: rgba(175, 20, 45, 0.98);
   z-index: 5;
   overflow: hidden; }
   header:last-child {
@@ -1160,6 +1197,9 @@ header {
   margin-left: 0;
   margin-right: 0;
   width: 20%; }
+  @media (max-width: 500px) {
+    .company-logo {
+      width: 30%; } }
 
 .top-navigation-mod {
   float: left;
@@ -1173,6 +1213,9 @@ header {
     font-weight: 400;
     display: inline-block;
     float: right; }
+    @media (max-width: 500px) {
+      .top-navigation-mod li {
+        font-size: 1.2em; } }
 
 .bottom-box {
   float: left;
@@ -1197,6 +1240,9 @@ header {
     font-weight: 400;
     display: inline-block;
     float: right; }
+    @media (max-width: 500px) {
+      .bottom-box li {
+        font-size: 1.2em; } }
     .bottom-box li:last-child {
       border-bottom: .2em solid #AF142D; }
 
@@ -1231,7 +1277,7 @@ header {
   position: fixed;
   bottom: 0;
   text-align: center; }
-  @media (max-width: 1100px) {
+  @media (max-width: 900px) {
     .main-footer {
       float: left;
       clear: none;
@@ -1251,6 +1297,10 @@ header {
   background: #444444; }
   .module-footer:last-child {
     margin-right: 0; }
+  @media (max-width: 500px) {
+    .module-footer {
+      padding: 0;
+      margin-top: 5em; } }
 
 .related-box {
   float: left;
@@ -1283,7 +1333,8 @@ header {
     color: #ffffff; }
     @media (max-width: 500px) {
       .top-left li {
-        font-size: 1em; } }
+        font-size: 1em;
+        padding: 0; } }
 
 .social-box {
   float: left;
@@ -1323,12 +1374,15 @@ header {
   margin-left: 0;
   margin-right: 0;
   padding: 2em; }
+  @media (max-width: 500px) {
+    .copy-left {
+      padding: 0;
+      margin-top: 3em; } }
   .copy-left li {
     display: inline-block;
     color: #ffffff; }
     @media (max-width: 1100px) {
       .copy-left li {
-        padding: 0;
         font-size: 1em; } }
 
 .copy-right {
@@ -1338,6 +1392,10 @@ header {
   margin-left: 0;
   margin-right: 0;
   padding: 2em; }
+  @media (max-width: 500px) {
+    .copy-right {
+      padding: .1em;
+      margin-top: 3em; } }
   .copy-right li {
     display: inline-block;
     color: #ffffff;
@@ -1364,6 +1422,9 @@ header {
       margin-right: .2em; } }
 
 .link-to {
+  border-top: .1em solid #AF142D;
+  border-right: .1em solid #AF142D;
+  border-bottom: .1em solid #AF142D;
   float: left;
   clear: none;
   width: 33.3333333333%;
@@ -1377,8 +1438,7 @@ header {
   margin-right: auto;
   background: #ffffff;
   padding: 1em;
-  margin-bottom: 1em;
-  border: .1em solid #AF142D; }
+  margin-bottom: 1em; }
   .link-to:first-child {
     margin-left: auto; }
   .link-to:last-child {
@@ -1522,12 +1582,14 @@ header {
   width: 65.6666666667%;
   margin-left: 0;
   margin-right: 3%;
+  border-top: .1em solid #AF142D;
+  border-left: .1em solid #AF142D;
+  border-bottom: .1em solid #AF142D;
   margin-top: 6em;
   margin-bottom: .5em;
   background: #ffffff;
   float: right;
   margin-right: 0;
-  border: 1px solid #c32841;
   transition: margin-top .2s;
   padding: 2em; }
   .main:last-child {
@@ -1617,6 +1679,9 @@ header {
   margin-bottom: .5em;
   font-weight: 400; }
 
+.last-child {
+  border-bottom: none; }
+
 header {
   position: fixed;
   top: 0;
@@ -1625,7 +1690,7 @@ header {
   width: 100%;
   margin-left: 0;
   margin-right: 3%;
-  background: #AF142D;
+  background: rgba(175, 20, 45, 0.98);
   z-index: 5;
   overflow: hidden; }
   header:last-child {
@@ -1651,6 +1716,9 @@ header {
   margin-left: 0;
   margin-right: 0;
   width: 20%; }
+  @media (max-width: 500px) {
+    .company-logo {
+      width: 30%; } }
 
 .top-navigation-mod {
   float: left;
@@ -1664,6 +1732,9 @@ header {
     font-weight: 400;
     display: inline-block;
     float: right; }
+    @media (max-width: 500px) {
+      .top-navigation-mod li {
+        font-size: 1.2em; } }
 
 .bottom-box {
   float: left;
@@ -1688,6 +1759,9 @@ header {
     font-weight: 400;
     display: inline-block;
     float: right; }
+    @media (max-width: 500px) {
+      .bottom-box li {
+        font-size: 1.2em; } }
     .bottom-box li:last-child {
       border-bottom: .2em solid #AF142D; }
 
@@ -1722,7 +1796,7 @@ header {
   position: fixed;
   bottom: 0;
   text-align: center; }
-  @media (max-width: 1100px) {
+  @media (max-width: 900px) {
     .main-footer {
       float: left;
       clear: none;
@@ -1742,6 +1816,10 @@ header {
   background: #444444; }
   .module-footer:last-child {
     margin-right: 0; }
+  @media (max-width: 500px) {
+    .module-footer {
+      padding: 0;
+      margin-top: 5em; } }
 
 .related-box {
   float: left;
@@ -1774,7 +1852,8 @@ header {
     color: #ffffff; }
     @media (max-width: 500px) {
       .top-left li {
-        font-size: 1em; } }
+        font-size: 1em;
+        padding: 0; } }
 
 .social-box {
   float: left;
@@ -1814,12 +1893,15 @@ header {
   margin-left: 0;
   margin-right: 0;
   padding: 2em; }
+  @media (max-width: 500px) {
+    .copy-left {
+      padding: 0;
+      margin-top: 3em; } }
   .copy-left li {
     display: inline-block;
     color: #ffffff; }
     @media (max-width: 1100px) {
       .copy-left li {
-        padding: 0;
         font-size: 1em; } }
 
 .copy-right {
@@ -1829,6 +1911,10 @@ header {
   margin-left: 0;
   margin-right: 0;
   padding: 2em; }
+  @media (max-width: 500px) {
+    .copy-right {
+      padding: .1em;
+      margin-top: 3em; } }
   .copy-right li {
     display: inline-block;
     color: #ffffff;
@@ -1855,6 +1941,9 @@ header {
       margin-right: .2em; } }
 
 .link-to {
+  border-top: .1em solid #AF142D;
+  border-right: .1em solid #AF142D;
+  border-bottom: .1em solid #AF142D;
   float: left;
   clear: none;
   width: 33.3333333333%;
@@ -1868,8 +1957,7 @@ header {
   margin-right: auto;
   background: #ffffff;
   padding: 1em;
-  margin-bottom: 1em;
-  border: .1em solid #AF142D; }
+  margin-bottom: 1em; }
   .link-to:first-child {
     margin-left: auto; }
   .link-to:last-child {
@@ -1935,15 +2023,9 @@ header {
   margin-left: 0;
   margin-right: 3%;
   background: #ffffff;
-  box-shadow: 0 0 .8em; }
+  box-shadow: 0 0 .5em grey; }
   .normal-list:last-child {
     margin-right: 0; }
-  .normal-list li {
-    color: black;
-    font-weight: 400;
-    list-style: disc inside; }
-    .normal-list li:first-child {
-      border-bottom: .1em solid #3f4246; }
   @media (max-width: 1100px) {
     .normal-list {
       float: left;
@@ -1953,6 +2035,12 @@ header {
       margin-right: 3%; }
       .normal-list:last-child {
         margin-right: 0; } }
+  .normal-list li {
+    color: black;
+    font-weight: 400;
+    list-style: disc inside; }
+    .normal-list li:first-child {
+      border-bottom: .1em solid #3f4246; }
 
 .inline-list {
   float: left;
@@ -1975,6 +2063,9 @@ header {
     background: #3f4246;
     margin-left: 0;
     border-right: .1em solid #ffffff; }
+    @media (max-width: 500px) {
+      .inline-list li {
+        padding: 1em; } }
     .inline-list li:hover {
       background: #494c50;
       transition: background .5s; }
@@ -1991,15 +2082,10 @@ header {
   padding: 1em;
   background: #ffffff;
   display: none;
-  box-shadow: 0 0 .5em;
+  box-shadow: 0 0 .3em grey;
   height: 0; }
   .dropdown-list:last-child {
     margin-right: 0; }
-  .dropdown-list li {
-    color: #444444;
-    font-weight: 400; }
-    .dropdown-list li:first-child {
-      border-bottom: .1em solid #3f4246; }
   @media (max-width: 1100px) {
     .dropdown-list {
       float: left;
@@ -2009,6 +2095,11 @@ header {
       margin-right: 3%; }
       .dropdown-list:last-child {
         margin-right: 0; } }
+  .dropdown-list li {
+    color: #444444;
+    font-weight: 400; }
+    .dropdown-list li:first-child {
+      border-bottom: .1em solid #3f4246; }
 
 .icon-list {
   background: #c32841;
@@ -2143,12 +2234,14 @@ header {
   width: 65.6666666667%;
   margin-left: 0;
   margin-right: 3%;
+  border-top: .1em solid #AF142D;
+  border-left: .1em solid #AF142D;
+  border-bottom: .1em solid #AF142D;
   margin-top: 6em;
   margin-bottom: .5em;
   background: #ffffff;
   float: right;
   margin-right: 0;
-  border: 1px solid #c32841;
   transition: margin-top .2s;
   padding: 2em; }
   .main:last-child {
@@ -2238,6 +2331,9 @@ header {
   margin-bottom: .5em;
   font-weight: 400; }
 
+.last-child {
+  border-bottom: none; }
+
 header {
   position: fixed;
   top: 0;
@@ -2246,7 +2342,7 @@ header {
   width: 100%;
   margin-left: 0;
   margin-right: 3%;
-  background: #AF142D;
+  background: rgba(175, 20, 45, 0.98);
   z-index: 5;
   overflow: hidden; }
   header:last-child {
@@ -2272,6 +2368,9 @@ header {
   margin-left: 0;
   margin-right: 0;
   width: 20%; }
+  @media (max-width: 500px) {
+    .company-logo {
+      width: 30%; } }
 
 .top-navigation-mod {
   float: left;
@@ -2285,6 +2384,9 @@ header {
     font-weight: 400;
     display: inline-block;
     float: right; }
+    @media (max-width: 500px) {
+      .top-navigation-mod li {
+        font-size: 1.2em; } }
 
 .bottom-box {
   float: left;
@@ -2309,6 +2411,9 @@ header {
     font-weight: 400;
     display: inline-block;
     float: right; }
+    @media (max-width: 500px) {
+      .bottom-box li {
+        font-size: 1.2em; } }
     .bottom-box li:last-child {
       border-bottom: .2em solid #AF142D; }
 
@@ -2343,7 +2448,7 @@ header {
   position: fixed;
   bottom: 0;
   text-align: center; }
-  @media (max-width: 1100px) {
+  @media (max-width: 900px) {
     .main-footer {
       float: left;
       clear: none;
@@ -2363,6 +2468,10 @@ header {
   background: #444444; }
   .module-footer:last-child {
     margin-right: 0; }
+  @media (max-width: 500px) {
+    .module-footer {
+      padding: 0;
+      margin-top: 5em; } }
 
 .related-box {
   float: left;
@@ -2395,7 +2504,8 @@ header {
     color: #ffffff; }
     @media (max-width: 500px) {
       .top-left li {
-        font-size: 1em; } }
+        font-size: 1em;
+        padding: 0; } }
 
 .social-box {
   float: left;
@@ -2435,12 +2545,15 @@ header {
   margin-left: 0;
   margin-right: 0;
   padding: 2em; }
+  @media (max-width: 500px) {
+    .copy-left {
+      padding: 0;
+      margin-top: 3em; } }
   .copy-left li {
     display: inline-block;
     color: #ffffff; }
     @media (max-width: 1100px) {
       .copy-left li {
-        padding: 0;
         font-size: 1em; } }
 
 .copy-right {
@@ -2450,6 +2563,10 @@ header {
   margin-left: 0;
   margin-right: 0;
   padding: 2em; }
+  @media (max-width: 500px) {
+    .copy-right {
+      padding: .1em;
+      margin-top: 3em; } }
   .copy-right li {
     display: inline-block;
     color: #ffffff;
@@ -2476,6 +2593,9 @@ header {
       margin-right: .2em; } }
 
 .link-to {
+  border-top: .1em solid #AF142D;
+  border-right: .1em solid #AF142D;
+  border-bottom: .1em solid #AF142D;
   float: left;
   clear: none;
   width: 33.3333333333%;
@@ -2489,8 +2609,7 @@ header {
   margin-right: auto;
   background: #ffffff;
   padding: 1em;
-  margin-bottom: 1em;
-  border: .1em solid #AF142D; }
+  margin-bottom: 1em; }
   .link-to:first-child {
     margin-left: auto; }
   .link-to:last-child {

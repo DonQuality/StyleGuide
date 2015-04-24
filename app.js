@@ -6,7 +6,7 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
 var routes = require('./routes/index');
-var late = require('./routes/late');
+var grid = require('./routes/grid');
 var nav = require('./routes/nav');
 var modules = require('./routes/modules');
 var uipatterns = require('./routes/uipatterns');
@@ -25,7 +25,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', routes);
-app.use('/late', late);
+app.use('/grid', grid);
 app.use('/nav', nav);
 app.use('/modules', modules);
 app.use('/uipatterns', uipatterns);

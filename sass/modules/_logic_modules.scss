@@ -10,3 +10,9 @@
   background: $background;
 }
 
+@mixin wrap-left($border){
+  border-top: $border;
+  border-right: $border;
+  border-bottom: $border;
+}
+

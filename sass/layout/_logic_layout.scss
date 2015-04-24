@@ -3,3 +3,9 @@
   position: $pos;
   top: $top;
 }
+
+@mixin wrap-right($border){
+  border-top: $border;
+  border-left: $border;
+  border-bottom: $border;
+}
