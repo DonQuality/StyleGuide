@@ -9,6 +9,7 @@ h1{
 h2{
   @include letra($secondary-color, 2.5em, 100);
   margin: .5em 0;
+  line-height: 1.4em;
 }
 
 h3{
@@ -34,7 +35,7 @@ h6{
 
 p{
   @include letra($secondary-color, 2em, 100);
-  line-height: 1.4em;
+  line-height: 1.5em;
 }
 
 a,

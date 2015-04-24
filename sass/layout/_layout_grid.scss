@@ -24,6 +24,12 @@
     @include stack();
     padding: 4em;
   }
+  p{
+    margin-top: 3em;
+    @media (max-width: 900px){
+      margin-top: .8em;
+    }
+  }
 }
 
 .half-col-right{
@@ -36,6 +42,12 @@
     @include col(4/4);
     @include stack();
     padding: 4em;
+  }
+  p{
+    margin-top: 3em;
+    @media (max-width: 900px){
+      margin-top: .8em;
+    }
   }
 }
 

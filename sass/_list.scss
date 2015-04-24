@@ -85,12 +85,13 @@
 // add images here...
 .icon-list{
   background: $tertiary-color;
-  padding: 8em;
+  padding: 1em;
+  text-align: center;
   @media (max-width: 1100px){
     padding: 5em;
   }
 }
 
 .icons{
-  @include col(1/4);
+  @include col(.20);
 }

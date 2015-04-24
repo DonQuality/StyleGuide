@@ -1,6 +1,9 @@
 .main-footer{
   width: 34.4%;
-  background: $dark-pink;
+  background: url(../images/footer.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   position: fixed;
   bottom: 0;
   text-align: center;
