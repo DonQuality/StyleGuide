@@ -31,3 +31,22 @@
   }
 }
 
+.primary-color-box{
+  @include letra($tertiary-color, null, 100);
+}
+
+.primary-color-box-two{
+  h1,
+  h2,
+  p{
+    @include letra($primary-color, null, 100);
+  }
+}
+
+.primary-color-box-three{
+  h1,
+  h2,
+  p{
+    @include letra($primary-color, null, 100);
+  }
+}

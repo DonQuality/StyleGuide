@@ -5,11 +5,8 @@
   padding: .5em;
   @include color-box($primary-color);
   @include col(1/3);
-  border: .2em solid $secondary-color;
+  border: .2em solid $secondary-color + 50;
   color: red;
-  h1{
-    @include letra($tertiary-color, null, 100);
-  }
   @media (max-width: 1100px){
     @include stack();
     @include col(4/4);
@@ -20,11 +17,7 @@
 .primary-color-box-two{
   @include color-box($secondary-color);
   @include col(1/3);
-  border: .2em solid $light-grey;
   padding: .5em;
-  h1,h2,p{
-    @include letra($primary-color, null, 100);
-  }
   @media (max-width: 1100px){
     @include stack();
     @include col(4/4);
@@ -35,7 +28,6 @@
 .primary-color-box-three{
   @include color-box($tertiary-color);
   @include col(1/3);
-  border: .2em solid $secondary-color;
   padding: .5em;
   h1{
     @include letra($primary-color, null, 100);
@@ -54,7 +46,6 @@
   padding: .5em;
   @include color-box($light-grey);
   @include col(1/3);
-  border: .2em solid $secondary-color;
   color: red;
   h1{
     @include letra($tertiary-color, null, 100);
@@ -69,7 +60,6 @@
 .secondary-color-box-two{
   @include color-box($dark-blue);
   @include col(1/3);
-  border: .2em solid $light-grey;
   padding: .5em;
   h1,h2,p{
     @include letra($primary-color, null, 100);
@@ -84,7 +74,6 @@
 .secondary-color-box-three{
   @include color-box($dark-pink);
   @include col(1/3);
-  border: .2em solid $secondary-color;
   padding: .5em;
   h1{
     @include letra($primary-color, null, 100);
